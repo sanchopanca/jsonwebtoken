@@ -1,4 +1,10 @@
-# jsonwebtoken
+> this is a fork of  as a workaround for dependency issues around `subtle`
+> use it like this:
+> ```
+> jsonwebtoken-rustcrypto = { git = "https://github.com/sanchopanca/jsonwebtoken", rev = "beba387a2eb40ef4e02df1b735a941a5d52c1589" }
+> ```
+> See also: https://github.com/JadedBlueEyes/jsonwebtoken/pull/2
+# jsonwebtoken-rustcrypto
 
 This is a fork of Keats' jsonwebtoken crate that uses RustCrypto crates (`rsa`, `sha2`, `hmac`) instead of Ring. This reduces the amount of work being done in the crate significantly and allows more flexibility in how the user loads RSA keys.
 
