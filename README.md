@@ -1,4 +1,4 @@
-> this is a fork of  as a workaround for dependency issues around `subtle`
+> this is a fork of `jsonwebtoken-rustcrypto` to work around dependency issues with `subtle`
 > use it like this:
 > ```
 > jsonwebtoken-rustcrypto = { git = "https://github.com/sanchopanca/jsonwebtoken", rev = "beba387a2eb40ef4e02df1b735a941a5d52c1589" }
